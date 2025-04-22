@@ -1,0 +1,83 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;             
+    justify-content: center;
+    align-items: center;
+    gap: 60px;                      
+    padding: 0 10%;
+    background-color: white;
+    flex-wrap: wrap;                 
+  }
+  
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.hero-text {
+    max-width: 500px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.hero-divider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.bottom-line {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 100px; /* pushes the text off screen slightly */
+}
+  
+.section-label {
+    font-size: 72px;
+    font-weight: bold;
+    color: #e0e0e0;
+    opacity: 0.15;
+    transform: translateY(100px); /* moves text just off-screen */
+}
+
+.hero-divider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.bottom-line {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 40px;
+}
+  
+.portfolio-heading {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start; /* aligns to the left */
+}
+  
+.section-label {
+    font-size: 144px;
+    font-weight: bold;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0;
+}
