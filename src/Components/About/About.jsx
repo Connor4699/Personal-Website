@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import climbPhoto from '../../assets/gymnastics2.jpg'
-import gymPhoto from '../../assets/gymnastics1.jpg'
+import climbPhoto from '../../assets/gymnastics2.JPG'
+import gymPhoto from '../../assets/gymnastics1.JPG'
 
 const About = () => (
   <div className="about container" id="about">
